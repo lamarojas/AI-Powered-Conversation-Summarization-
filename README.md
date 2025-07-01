@@ -182,10 +182,10 @@ jupyter notebook dialogue_summarization_complete.ipynb
 
 
 
-## 📞 Contact
+## Contact
 
-**Project Lead:** Laura Rojas
-**Email:** lamarojas@gmail.com
+Laura Rojas
+lamarojas@gmail.com
 
 
 ---
