@@ -1,92 +1,92 @@
 {
   "bert_gpt2_results": {
     "rouge_scores": {
-      "rouge1": 0.18907568357017773,
-      "rouge2": 0.024903202536450772,
-      "rougeL": 0.15648427338607346
+      "rouge1": 0.11579236109670238,
+      "rouge2": 0.012909575371115279,
+      "rougeL": 0.0994499823540752
     },
     "training_losses": [
-      3.0700610184669497,
-      2.638631168206533
+      2.5633607677618664,
+      2.456607125600179
     ],
     "validation_losses": [
-      2.5901724915755424,
-      2.525867073159469
+      2.5078954194721423,
+      2.507669524142617
     ]
   },
   "t5_results": {
     "rouge_scores": {
-      "rouge1": 0.4088733212879774,
-      "rouge2": 0.16685694761949255,
-      "rougeL": 0.3347934036816628
+      "rouge1": 0.4374099202683938,
+      "rouge2": 0.18444951873550747,
+      "rougeL": 0.3528581379436852
     },
     "training_losses": [
-      1.1547400678197544,
-      0.9360231385628383
+      1.1562067079544067,
+      0.9309288236498833
     ],
     "validation_losses": [
-      0.9467229098081589,
-      0.9331032812595368
+      0.9448921692371368,
+      0.9382310116291046
     ],
-    "training_time": 635.7331850528717,
+    "training_time": 578.0891768932343,
     "sample_outputs": [
       [
         "#Person1#: Where should I park? \n#Person2#: Do you have a car or motorbike? \n#Person1#: I drive a scooter \n#Person2#: In that case, you can park either in a student lot or on the street. Are you aware of the marked handicapped spots? \n#Person1#: No, I haven't seen those spots. \n#Person2#: The handicapped logo with blue means that you are not to park there unless you have a handicapped permit. Will you mostly be parking during the day or the night? \n#Person1#: I park in the daytime. \n#Person2#: Make sure you pay special attention to the street signs with time limits. Have you noticed those signs? \n#Person1#: No, I have not seen the signs. \n#Person2#: Pay attention to what the signs tell you in terms of time limits and what days you can park there. Do you know what the curb colors mean? \n#Person1#: No, I don't know what the curb colors mean. \n#Person2#: Just remember that red means absolutely no parking and white means loading and unloading only. I think you'll be good to go! ",
-        "#Person1# asks #Person2# to pay special attention to the marked handicapped spots. #Person2# tells #Person1# that #Person1# can park in the daytime.",
+        "#Person1# tells #Person2# #Person1# can park in a student lot or on the street. #Person2# tells #Person1# to pay special attention to the street signs with time limits and how to park there.",
         "#Person2# tells #Person1# where to park and where #Person1# can't park. #Person2# asks #Person1# to pay attention to the limitation of parking time and tells #Person1# the meaning of curb colors."
       ],
       [
         "#Person1#: I would much rather see her once or twice and not do anything about it. what could I about it anyway? \n#Person2#: Don't say things like this. Please be confident. I think you still have the chance to win her love, unless you don't love her anymore. \n#Person1#: Don't you think she is a bit out of my way? \n#Person2#: In some way, she is more modern. \n#Person1#: If I do try to do anything, I'd only be sent off with a flea in my ear. \n#Person2#: If you really think so, in my opinion you should give up this feeling completely. ",
-        "#Person1# wants to see #Person1# but #Person2# thinks #Person1#'s love for #Person1# is out of way.",
+        "#Person1# wants to see #Person2#'s love but #Person2# thinks #Person2# doesn't love her anymore. #Person2# suggests #Person1# give up the feeling.",
         "#Person1# complains to #Person2# of pursuing a girl. #Person2# tells him to give up this feeling."
       ],
       [
         "#Person1#: What colour is her hair?\n#Person2#: Oh, blonde, she's very blonde. . . quite short hair. . .\n#Person1#: What, curly?\n#Person2#: No, not at all. Very straight. Her hair comes down like this. . . just over the ears.\n#Person1#: Does she wear glasses?\n#Person2#: No. . . no. I think you're thinking of someone else.\n#Person1#: No. I'm sure I know her.\n#Person2#: Er. . . what else can I tell you? Er. . . she's got. . . er a. . . round face, a very round face, and a very big mouth, sort of wide mouth, when she laughs, her face is all mouth.\n#Person1#: Ah. . . No, I can't place her.",
-        "#Person2# tells #Person1# she's blonde. #Person1# thinks she's got a round face, a very round face, and a very big mouth.",
+        "#Person2# tells #Person1# that #Person2#'s hair comes down like a curly and has a very large mouth.",
         "#Person1# and #Person2# are describing characteristics of a female to see if they are talking about the same person."
       ],
       [
         "#Person1#: Ikebana, it's an art of flowers and it's quite different from Western style flower arrangement because in Ikebana's theory you can decorate one flower, only with one flower. \n#Person2#: What's another Japanese art? \n#Person1#: Japanese art? Mm, Ikebana! Tea Ceremony! \n#Person2#: Tea Ceremony! Tell me about Tea Ceremony. \n#Person1#: Tea Ceremony! It's, there's a certain way you have to make tea, not only make tea, there's a certain way to for example wipe a bowl. \n#Person2#: I see. \n#Person1#: Yes, with one piece of cloth, and you need to learn how to fold the cloth so that you you use each part of the cloth only once to wipe the bowl \n#Person2#: How do you learn that? Is that something that your mother would teach you? How do people learn that? \n#Person1#: There's some professionals for both flower arrnagement and tea ceremony. So you need to go to a school, yes, and learn from your teacher and their heirarchy and the organization and you need to pass each test to go, climb up the ladder in the heirarchy. ",
-        "Ikebana tells #Person1# about the Japanese art of flowers. #Person1# tells #Person2# about the way to make tea with a piece of cloth.",
+        "Ikebana tells #Person1# about Tea Ceremony, a Japanese art of flowers, and some professionals for flower arrnagement and tea ceremony.",
         "#Person1# tells #Person2# about Ikebana, the Japanese art of flowers, and the Tea Ceremony in Japan. There're some professionals for both flower arrangement and tea ceremony."
       ],
       [
         "#Person1#: Good morning, welcome to Bank of the USA. How may I help you today?\n#Person2#: Hi, I need to transfer some money to another account. It's urgent.\n#Person1#: Okay, have you made a wire transfer at our bank before?\n#Person2#: No. I'Ve never made a transfer before.\n#Person1#: It's alright, I will take you through the procedure. Are you transferring funds to a company or an individual account?\n#Person2#: A company account. I need to pay a bill.\n#Person1#: Okay, I'll need the name of the company and their bank routing number as well as their bank's address and phone number.\n#Person2#: I have all the information in this folder.\n#Person1#: Well. You'Ve come prepared. I have all the necessary materials so we can go ahead and make the transfer right now. It's a simple transaction, and we can process it today.\n#Person2#: Oh, that's such a relief. I didn't want the payment to be overdue. Thank you so much.\n#Person1#: It's my pleasure.",
-        "#Person2# needs to transfer money to another account. #Person1# tells #Person2# #Person2# needs to pay a bill.",
+        "#Person2# tells #Person1# #Person2# needs to transfer money to another account. #Person1# tells #Person2# that #Person2# never made a wire transfer before.",
         "#Person2# needs to transfer money to a company account and provides #Person1# with the name of the company, the bank routing number, the bank's address and phone number."
       ],
       [
         "#Person1#: My colleagues at work say I should get a health insurance. What do you think?\n#Person2#: I think it's important. I can give you my insurance agent's card if you want.\n#Person1#: But I'm not sure what kind I need. In Germany, we have a national insurance program. But here you have nothing.\n#Person2#: Yes, I know. Many countries have national health insurance. America doesn't.\n#Person1#: Why is that?\n#Person2#: Well, it's because of the American culture. Americans think private companies can do things better than the government. So we depend on private companies for insurance.\n#Person1#: But isn't that expensive?\n#Person2#: You're right. It is expensive. And many people criticize it. They say it is not fair to poor people. They say the health systems are better in other countries, especially in Europe.\n#Person1#: But what do you think?\n#Person2#: I have no idea. I just do my best to have good insurance. It's important.",
-        "#Person1# wants to get a health insurance. #Person2# tells #Person1# about the American culture of health insurance.",
+        "#Person1# asks #Person2# about the importance of getting a health insurance. #Person2# tells #Person1# that many countries have national health insurance. #Person1# thinks it's expensive and many criticize it.",
         "#Person1# wants to get health insurance. #Person2# tells #Person1# that America doesn't have national health insurance because Americans think private companies can do things better than the government."
       ],
       [
         "#Person1#: Uh, hi there Diane. Nah, okay. Uh ... Hi, what's up, Di? Okay, here we go... [doorbell ringing ]\n#Person2#: Uh, hi. It's David, right?\n#Person1#: No, Doug. Remember? We met at Gary's party last Friday night.\n#Person2#: Oh, yeah. Now I remember. You were standing all alone ... uh, oh, I ... I mean ... I mean, you ... you know. We started talking about school and stuff. [Yeah, yeah.]. Uh, how did you know I lived here?\n#Person1#: Well, I just live around the corner, and I asked Gary if he knew how I could contact you, and ...\n#Person2#: And?\n#Person1#: Well, I was just wondering if you'd like to go out this Thursday night. [Oh.]. Well, there's this real great movie playing downtown at the theater, [Uh ...] and I thought ... Well ... well, we can't use my car 'cause I was in an accident with this wild man driving this BMW, so I've already checked the bus schedule, and ...\n#Person2#: Uh-hem [Well], Well, David [No Doug! Remember?] Oh yeah. Doug. I'm sorry, but I have to work that evening.\n#Person1#: Oh really? Well, I thought you said before that you quit your job.\n#Person2#: Well, I did, but I found a new one.\n#Person1#: Uh, well, how about this Friday night? We could have dinner and then see that movie.\n#Person2#: A movie? How boring!\n#Person1#: Well, well, uh, well. A movie? Yeah, for ... forget a movie.\n#Person2#: Anyway, I'm afraid I have to cook dinner for my family, and ...\n#Person1#: Hey, I love to cook. We could whip something up together! I mean, it would be great!\n#Person2#: I don't think that's a good idea. It's just a family occasion and ...\n#Person1#: Well, hey, are you free this Saturday night? I have two tickets to the football game, and I thought ...\n#Person2#: Sure. I'd love to go. [Okay!] I've wanted to see a game all year. [Yeah!] My roommate will be so surprised when she finds out I have a ticket for her, and ...\n#Person1#: Well, but ...\n#Person2#: Oh [car screeching ... ] ... and here's my brother! He's a defensive lineman on the team.\n#Person1#: Well, he doesn't look too happy.\n#Person2#: Ah, he's a teddy bear, but hasn't been the same since someone ran into his BMW.\n#Person1#: Oh. Let me guess. Red, right?\n#Person2#: Right. [Oh] And, it's just that he's a little protective of me since I am his baby sister.\n#Person1#: Hey, well, it's been really nice talking to you, but I have to run. Hey. Here are the tickets. Have a great time and, by the way, can I go out your back door?",
-        "Diane tells Di she wants to go out because she was in an accident with a wild man driving a BMW. Diane thinks she has to cook dinner for her family.",
+        "Diane tells Di she wants to go out on Thursday night because she was in an accident with a wild man driving a BMW. Di thinks she has to cook dinner for her family and he loves to cook.",
         "Doug invites Diane to go out this Thursday night to a movie playing downtown at the theater, but Diane refuses because she has to work that evening. Then he invites her to have dinner and watch a movie on Friday night, but she has to cook dinner for her family. At last, she agrees to accept two tickets to the football game on Saturday night, but she plans to go with her roommate instead of Doug."
       ],
       [
         "#Person1#: I've been having problems getting onto the Internet.\n#Person2#: Have you checked your connection settings?\n#Person1#: Yes, they're fine. I suppose. the server might be down again.\n#Person2#: Yes, there have been a few problems recently. Why don't you call the IT department?",
-        "#Person1# has been having problems getting onto the Internet.",
+        "#Person1# asks #Person2# to check the connection settings.",
         "#Person1# tells #Person2# #Person1# has problems getting onto the Internet."
       ],
       [
         "#Person1#: I was almost fooled by a telephone call yesterday.\n#Person2#: What's it about?\n#Person1#: A week's vacation for two. But I realized it was a cheat when they told me to ring a special telephone number to claim the price.\n#Person2#: Well,those calls are charged at unbelievably high rates.",
-        "#Person1# was fooled by a telephone call yesterday.",
+        "#Person1# was fooled by a telephone call yesterday. #Person2# tells #Person1# to ring a special telephone number to claim.",
         "#Person1# tells #Person2# about a telephone scam."
       ],
       [
         "#Person1#: I'd like to rent a car.\n#Person2#: May I see your driver's license, please?\n#Person1#: Here is my international driver's license. What kinds of cars do you have?\n#Person2#: We have Honda, Citroen and Toyota. Which make and model do you prefer?\n#Person1#: I'll take the Citroen C2. What is the rate for the car per day?\n#Person2#: The price is 60 euro per day. Do you want insurance?\n#Person1#: Full coverage, please.\n#Person2#: That's an extra 10 euro a day.\n#Person1#: Do I have to fill up when I check in?\n#Person2#: Yes.",
-        "#Person1# wants to rent a car. #Person2# asks #Person1# to check in.",
+        "#Person1# wants to rent a car. #Person2# tells #Person1# #Person1# wants an extra 10 euro a day.",
         "#Person2# helps #Person1# rent the Citroen C2 with full coverage insurance and confirms that #Person1# needs to fill up when checking in."
       ]
     ]
   },
   "comparative_analysis": {
     "performance_improvement": {
-      "rouge1": 2.1624849561166286,
-      "rouge2": 6.700220478681982,
-      "rougeL": 2.139469969967335
+      "rouge1": 3.777536930118361,
+      "rouge2": 14.287806797131902,
+      "rougeL": 3.5480965364819492
     },
     "recommendation": "T5"
   }
